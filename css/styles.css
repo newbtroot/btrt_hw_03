@@ -90,7 +90,11 @@ article:nth-child(odd) {
     .main_inner {
         flex-direction: column;
     }
+    .aside {
+        padding: 1rem 0;
+    }
     .aside_avatar {
         border-radius: 50%;
+        margin: 0 auto;
     }
 }
