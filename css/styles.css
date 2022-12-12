@@ -87,9 +87,10 @@ article:nth-child(odd) {
     text-transform: uppercase;
 }
 @media (max-width: 700px) {
-.aside_avatar {
-    width: 12rem;
-    height: 12rem;
-    
-}
+    .main_inner {
+        flex-direction: column;
+    }
+    .aside_avatar {
+        border-radius: 50%;
+    }
 }
