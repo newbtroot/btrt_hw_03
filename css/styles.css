@@ -1,0 +1,88 @@
+* {
+    font-family: 'PT Mono', monospace;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container,
+h1 {
+    width: calc(100% - 5rem);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header,
+.footer {
+    font-size: 1.25rem;
+    background-color: #bbb;
+    padding: 1rem 0;
+    position: fixed;
+    width: inherit;
+    text-align: end;
+}
+
+header b {
+    color: #ddd;
+}
+
+.header_inactive {
+    color: #ddd;
+    cursor: not-allowed;
+}
+
+hr {
+    margin-bottom: 2rem;
+}
+
+.main {
+    padding-top: 6rem;
+}
+
+.aside {
+    padding-left: 2rem;
+}
+
+.aside_avatar {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    border-bottom-right-radius: 0;
+    background-image: url(../images/full_1000_hrn.png);
+    background-position: left -235px center;
+    box-shadow: 0 0.5rem 0.75rem rgba(160, 160, 160, 0.75);
+}
+
+.main_inner {
+    display: flex;
+    gap: 2rem;
+}
+
+article {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+article:nth-child(odd) {
+    background: rgb(239, 239, 239);
+}
+
+.footer {
+    width: 100%;
+    position: static;
+    text-transform: uppercase;
+}
