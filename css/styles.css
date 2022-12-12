@@ -86,7 +86,7 @@ article:nth-child(odd) {
     position: static;
     text-transform: uppercase;
 }
-@media (max-width: 800px) {
+@media (orientation: portrait) {
     .main_inner {
         flex-direction: column;
     }
